@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "import-lazy": "^4.0.0",
+    "update-notifier": "^4.1.0",
+    "vuepress": "^1.5.3"
+  },
+  "name": "my-vuepress-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
